@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/anandureghu/go-dsa/database"
+	"github.com/anandureghu/go-dsa/linear"
 )
 
 func main() {
-	database.Run()
+	linear.RunLinkedList()
 }
